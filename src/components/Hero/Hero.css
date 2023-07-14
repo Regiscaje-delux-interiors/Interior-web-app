@@ -1,0 +1,32 @@
+.hero-main-div {
+  border-bottom-left-radius: 25%; /* Adjust the radius value as needed */
+  border-bottom-right-radius: 0%; /* Adjust the radius value as needed */
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+@media (max-width: 968px) {
+  .hero-main-div {
+    border-bottom-left-radius: 0%; /* Adjust the radius value as needed */
+    border-bottom-right-radius: 0%; /* Adjust the radius value as needed */
+  }
+}
+@media (max-width: 480px) {
+  .typewriter-div {
+    margin-top: 90px;
+    font-size: xx-large;
+  }
+  .pf h5 {
+    font-size: large;
+  }
+  .pf h5 {
+    font-size: large;
+  }
+  .pf-write div span {
+    font-size: large;
+  }
+  .pf-write div p {
+    font-size: small;
+  }
+}

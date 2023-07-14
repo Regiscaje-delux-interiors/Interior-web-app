@@ -1,0 +1,75 @@
+.projects-section {
+  height: auto;
+}
+.project-heading h1 {
+  padding-top: 60px;
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+}
+.project-hr {
+  background: linear-gradient(rgb(216, 48, 84), rgb(128, 16, 103));
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 1vh;
+}
+.project-photo-display {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+}
+.flip-card {
+  perspective: 1000px;
+  width: 335px;
+  height: 40vh;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+}
+
+.flip-card-back {
+  background-color: #555;
+  transform: rotateY(180deg);
+}
+
+.flip-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-photo-div {
+  width: 325px;
+  height: 40vh;
+}
+.project-photo {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
