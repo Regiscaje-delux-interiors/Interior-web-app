@@ -23,16 +23,7 @@
   font-weight: 900;
 }
 .all-service {
-  width: 200px;
-  height: 9vh;
-  border: 1px solid transparent;
-  font-size: larger;
-  font-weight: 600;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#042652, rgb(97, 11, 30));
+  display: none;
 }
 .all-service:hover {
   background: #4054b2;
@@ -80,6 +71,19 @@
   height: auto;
 }
 @media (max-width: 760px) {
+  .all-service {
+    display: block;
+    width: 200px;
+    height: 9vh;
+    border: 1px solid transparent;
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#042652, rgb(97, 11, 30));
+  }
   .web-service-div {
     /* display: flex; */
     /* flex-wrap: wrap;

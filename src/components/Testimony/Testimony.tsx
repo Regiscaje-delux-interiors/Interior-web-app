@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Testimonial.css";
+import { Container } from "react-bootstrap";
 type Props = {
   onClick?: () => any;
 };
@@ -62,7 +63,7 @@ const Testimony = () => {
 
   return (
     <div className="bg-indigo-950 testmonial-section">
-      <div className="container">
+      <Container>
         <h2 className="test-h text-center antialiased font-semibold text-white text-3xl pt-12 ">
           Happy Clients
         </h2>
@@ -130,7 +131,7 @@ const Testimony = () => {
             </figcaption>
           </figure>
         </Slider>
-      </div>
+      </Container>
     </div>
   );
 };

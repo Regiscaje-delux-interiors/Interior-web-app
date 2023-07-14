@@ -6,10 +6,18 @@
 .carousel-control-next {
   display: none;
 }
+.typewriter-div {
+  width: 90%;
+}
 @media (max-width: 968px) {
   .hero-main-div {
     border-bottom-left-radius: 0%; /* Adjust the radius value as needed */
     border-bottom-right-radius: 0%; /* Adjust the radius value as needed */
+  }
+}
+@media (max-width: 768px) {
+  .typewriter-div {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {

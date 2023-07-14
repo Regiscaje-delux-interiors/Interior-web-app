@@ -9,6 +9,7 @@ import hj from "../../assests/images/gg.jpg";
 import wall from "../../assests/images/wall.jpg";
 import funi from "../../assests/images/funi.jpg";
 import scred from "../../assests/images/Screeding.jpg";
+import { Container } from "react-bootstrap";
 const Projects = () => {
   const [isFlipped, setIsFlipped] = React.useState(false);
   const [isFlippeds, setIsFlippeds] = React.useState(false);
@@ -45,7 +46,7 @@ const Projects = () => {
   };
   return (
     <div className="bg-indigo-950 projects-section">
-      <div className="container">
+      <Container>
         <div className="project-heading">
           <h1>Our Projects</h1>
           <hr className="project-hr" />
@@ -165,7 +166,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };

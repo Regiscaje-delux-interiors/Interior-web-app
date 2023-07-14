@@ -8,10 +8,12 @@ import {
   SiWebpack,
 } from "react-icons/si";
 import "./Service.css";
+import { Container } from "react-bootstrap";
+
 const Services = () => {
   return (
     <div className="service-main-div">
-      <div className="container">
+      <Container>
         <div className="dsp-service-div">
           <div>
             <div className="our-sh">// OUR SERVICE</div>
@@ -157,7 +159,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };
