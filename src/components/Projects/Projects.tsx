@@ -46,127 +46,127 @@ const Projects = () => {
   };
   return (
     <div className="bg-indigo-950 projects-section">
-      <Container>
-        <div className="project-heading">
-          <h1>Our Projects</h1>
-          <hr className="project-hr" />
-        </div>
+      {/* <Container> */}
+      <div className="project-heading">
+        <h1>Our Projects</h1>
+        <hr className="project-hr" />
+      </div>
 
-        <div className="project-photo-display">
-          <div
-            className={`flip-card ${isFlipped ? "flipped" : ""}`}
-            onMouseEnter={handleFlip}
-            onMouseLeave={handleFlip}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={max} alt="img" className="project-photo" />
-              </div>
-              <div className="flip-card-back">
-                <img src={hut} alt="img" className="project-photo" />
-              </div>
+      <div className="project-photo-display">
+        <div
+          className={`flip-card ${isFlipped ? "flipped" : ""}`}
+          onMouseEnter={handleFlip}
+          onMouseLeave={handleFlip}
+        >
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={max} alt="img" className="project-photo" />
             </div>
-          </div>
-          <div
-            className={`flip-card ${isFlippeds ? "flipped" : ""}`}
-            onMouseEnter={handleFlips}
-            onMouseLeave={handleFlips}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={elect} alt="img" className="project-photo" />
-              </div>
-              <div className="flip-card-back">
-                <img src={hut} alt="img" className="project-photo" />
-              </div>
-            </div>
-          </div>
-          <div
-            className={`flip-card ${isFlippedss ? "flipped" : ""}`}
-            onMouseEnter={handleFlipss}
-            onMouseLeave={handleFlipss}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={hj} alt="img" className="project-photo" />
-              </div>
-              <div className="flip-card-back">
-                <img src={hut} alt="img" className="project-photo" />
-              </div>
-            </div>
-          </div>
-          <div
-            className={`flip-card ${isFlippedsss ? "flipped" : ""}`}
-            onMouseEnter={handleFlipsss}
-            onMouseLeave={handleFlipsss}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={scred} alt="img" className="project-photo" />
-              </div>
-              <div className="flip-card-back">
-                <img src={hut} alt="img" className="project-photo" />
-              </div>
-            </div>
-          </div>
-          <div
-            className={`flip-card ${isFlippedssss ? "flipped" : ""}`}
-            onMouseEnter={handleFlipssss}
-            onMouseLeave={handleFlipssss}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={gg} alt="img" className="project-photo" />
-              </div>
-              <div className="flip-card-back">
-                <img src={funi} alt="img" className="project-photo" />
-              </div>
-            </div>
-          </div>
-          <div
-            className={`flip-card ${isFlippedsssss ? "flipped" : ""}`}
-            onMouseEnter={handleFlipsssss}
-            onMouseLeave={handleFlipsssss}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={wall} alt="img" className="project-photo" />
-              </div>
-              <div className="flip-card-back">
-                <img src={hut} alt="img" className="project-photo" />
-              </div>
-            </div>
-          </div>
-          <div
-            className={`flip-card ${isFlippedssssss ? "flipped" : ""}`}
-            onMouseEnter={handleFlipssssss}
-            onMouseLeave={handleFlipssssss}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={funi} alt="img" className="project-photo" />
-              </div>
-              <div className="flip-card-back">
-                <img src={hut} alt="img" className="project-photo" />
-              </div>
-            </div>
-          </div>
-          <div
-            className={`flip-card ${isFlippedsssssss ? "flipped" : ""}`}
-            onMouseEnter={handleFlipsssssss}
-            onMouseLeave={handleFlipsssssss}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={pprt} alt="img" className="project-photo" />
-              </div>
-              <div className="flip-card-back">
-                <img src={wall} alt="img" className="project-photo" />
-              </div>
+            <div className="flip-card-back">
+              <img src={hut} alt="img" className="project-photo" />
             </div>
           </div>
         </div>
-      </Container>
+        <div
+          className={`flip-card ${isFlippeds ? "flipped" : ""}`}
+          onMouseEnter={handleFlips}
+          onMouseLeave={handleFlips}
+        >
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={elect} alt="img" className="project-photo" />
+            </div>
+            <div className="flip-card-back">
+              <img src={hut} alt="img" className="project-photo" />
+            </div>
+          </div>
+        </div>
+        <div
+          className={`flip-card ${isFlippedss ? "flipped" : ""}`}
+          onMouseEnter={handleFlipss}
+          onMouseLeave={handleFlipss}
+        >
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={hj} alt="img" className="project-photo" />
+            </div>
+            <div className="flip-card-back">
+              <img src={hut} alt="img" className="project-photo" />
+            </div>
+          </div>
+        </div>
+        <div
+          className={`flip-card ${isFlippedsss ? "flipped" : ""}`}
+          onMouseEnter={handleFlipsss}
+          onMouseLeave={handleFlipsss}
+        >
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={scred} alt="img" className="project-photo" />
+            </div>
+            <div className="flip-card-back">
+              <img src={hut} alt="img" className="project-photo" />
+            </div>
+          </div>
+        </div>
+        <div
+          className={`flip-card ${isFlippedssss ? "flipped" : ""}`}
+          onMouseEnter={handleFlipssss}
+          onMouseLeave={handleFlipssss}
+        >
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={gg} alt="img" className="project-photo" />
+            </div>
+            <div className="flip-card-back">
+              <img src={funi} alt="img" className="project-photo" />
+            </div>
+          </div>
+        </div>
+        <div
+          className={`flip-card ${isFlippedsssss ? "flipped" : ""}`}
+          onMouseEnter={handleFlipsssss}
+          onMouseLeave={handleFlipsssss}
+        >
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={wall} alt="img" className="project-photo" />
+            </div>
+            <div className="flip-card-back">
+              <img src={hut} alt="img" className="project-photo" />
+            </div>
+          </div>
+        </div>
+        <div
+          className={`flip-card ${isFlippedssssss ? "flipped" : ""}`}
+          onMouseEnter={handleFlipssssss}
+          onMouseLeave={handleFlipssssss}
+        >
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={funi} alt="img" className="project-photo" />
+            </div>
+            <div className="flip-card-back">
+              <img src={hut} alt="img" className="project-photo" />
+            </div>
+          </div>
+        </div>
+        <div
+          className={`flip-card ${isFlippedsssssss ? "flipped" : ""}`}
+          onMouseEnter={handleFlipsssssss}
+          onMouseLeave={handleFlipsssssss}
+        >
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={pprt} alt="img" className="project-photo" />
+            </div>
+            <div className="flip-card-back">
+              <img src={wall} alt="img" className="project-photo" />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* </Container> */}
     </div>
   );
 };

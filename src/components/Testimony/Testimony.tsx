@@ -63,75 +63,75 @@ const Testimony = () => {
 
   return (
     <div className="bg-indigo-950 testmonial-section">
-      <Container>
-        <h2 className="test-h text-center antialiased font-semibold text-white text-3xl pt-12 ">
-          Happy Clients
-        </h2>
-        <h2 className="test-h2 text-center antialiased font-semibold text-white text-5xl pt-2 mb-5">
-          Testomonies
-        </h2>
-        <Slider {...settings} className="d-test-div">
-          <figure className="snip1390">
-            <div className="img-test-profile">
-              {" "}
-              <img src={abtm} alt="profile-sample3" className="profile" />
-            </div>
+      {/* <Container> */}
+      <h2 className="test-h text-center antialiased font-semibold text-white text-3xl pt-12 ">
+        Happy Clients
+      </h2>
+      <h2 className="test-h2 text-center antialiased font-semibold text-white text-5xl pt-2 mb-5">
+        Testomonies
+      </h2>
+      <Slider {...settings} className="d-test-div">
+        <figure className="snip1390">
+          <div className="img-test-profile">
+            {" "}
+            <img src={abtm} alt="profile-sample3" className="profile" />
+          </div>
 
-            <figcaption>
-              <h4>Eleanor Crisp</h4>
-              <h5>Enterprenuer</h5>
-              <blockquote>
-                REGISCAJE DELUX INTERIORS are the best when it comes to Home
-                Decoration and Interior Designs. Patronize them.
-              </blockquote>
-            </figcaption>
-          </figure>
-          <figure className="snip1390 hover">
-            <img src={vj} alt="profile-sample5" className="profile" />
-            <figcaption>
-              <h4>Gordon Nor</h4>
-              <h5>Accountant</h5>
-              <blockquote>
-                REGISCAJE DELUX INTERIORS are the best when it comes to
-                Industrial Cleaning. Their expertise are top notch.
-              </blockquote>
-            </figcaption>
-          </figure>
-          <figure className="snip1390">
-            <img src={puyol} alt="profile-sample6" className="profile" />
-            <figcaption>
-              <h4>Sue Shei</h4>
-              <h5>Public Relations</h5>
-              <blockquote>
-                Kudos to REGISCAJE DELUX INTERIORS, They are the best when it
-                comes to Home Compound beautification.
-              </blockquote>
-            </figcaption>
-          </figure>
-          <figure className="snip1390 hover">
-            <img src={vj} alt="profile-sample5" className="profile" />
-            <figcaption>
-              <h4>Gordon Nor</h4>
-              <h5>Accountant</h5>
-              <blockquote>
-                I can't thank REGISCAJE DELUX INTERIORS enough for their high
-                quality and sustainable Furnitures supply.
-              </blockquote>
-            </figcaption>
-          </figure>
-          <figure className="snip1390 hover">
-            <img src={vj} alt="profile-sample5" className="profile" />
-            <figcaption>
-              <h4>Gordon Nor</h4>
-              <h5>Accountant</h5>
-              <blockquote>
-                REGISCAJE DELUX INTERIORS are the best when it comes to Project
-                Management, Evluation and marketing.
-              </blockquote>
-            </figcaption>
-          </figure>
-        </Slider>
-      </Container>
+          <figcaption>
+            <h4>Eleanor Crisp</h4>
+            <h5>Enterprenuer</h5>
+            <blockquote>
+              REGISCAJE DELUX INTERIORS are the best when it comes to Home
+              Decoration and Interior Designs. Patronize them.
+            </blockquote>
+          </figcaption>
+        </figure>
+        <figure className="snip1390 hover">
+          <img src={vj} alt="profile-sample5" className="profile" />
+          <figcaption>
+            <h4>Gordon Nor</h4>
+            <h5>Accountant</h5>
+            <blockquote>
+              REGISCAJE DELUX INTERIORS are the best when it comes to Industrial
+              Cleaning. Their expertise are top notch.
+            </blockquote>
+          </figcaption>
+        </figure>
+        <figure className="snip1390">
+          <img src={puyol} alt="profile-sample6" className="profile" />
+          <figcaption>
+            <h4>Sue Shei</h4>
+            <h5>Public Relations</h5>
+            <blockquote>
+              Kudos to REGISCAJE DELUX INTERIORS, They are the best when it
+              comes to Home Compound beautification.
+            </blockquote>
+          </figcaption>
+        </figure>
+        <figure className="snip1390 hover">
+          <img src={vj} alt="profile-sample5" className="profile" />
+          <figcaption>
+            <h4>Gordon Nor</h4>
+            <h5>Accountant</h5>
+            <blockquote>
+              I can't thank REGISCAJE DELUX INTERIORS enough for their high
+              quality and sustainable Furnitures supply.
+            </blockquote>
+          </figcaption>
+        </figure>
+        <figure className="snip1390 hover">
+          <img src={vj} alt="profile-sample5" className="profile" />
+          <figcaption>
+            <h4>Gordon Nor</h4>
+            <h5>Accountant</h5>
+            <blockquote>
+              REGISCAJE DELUX INTERIORS are the best when it comes to Project
+              Management, Evluation and marketing.
+            </blockquote>
+          </figcaption>
+        </figure>
+      </Slider>
+      {/* </Container> */}
     </div>
   );
 };
