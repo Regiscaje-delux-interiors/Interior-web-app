@@ -73,3 +73,21 @@
   .img-hd {
   }
 }
+@media screen and (max-width: 420px) {
+  .hd-div-mg-ds {
+    display: block;
+    margin-left: 0px;
+  }
+  .nav-text-h1 {
+    font-size: small;
+    text-align: center;
+  }
+  .icon-menu {
+    position: fixed;
+    left: 280px;
+    right: 2px;
+  }
+  .img-hd {
+    display: none;
+  }
+}
