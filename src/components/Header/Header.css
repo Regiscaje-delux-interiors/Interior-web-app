@@ -15,6 +15,12 @@
   height: 4.5vh;
   object-fit: contain;
 }
+.ltu {
+  display: none;
+}
+.nav-list-h {
+  font-size: medium;
+}
 @media screen and (max-width: 980px) {
   .now-music-sm {
     display: none;
@@ -53,8 +59,12 @@
   .box-header-div {
     margin-bottom: 40px;
   }
+  .ltu {
+    display: flex;
+    font-size: small;
+  }
   .nav-text-h1 {
-    font-size: large;
+    display: none;
   }
 }
 @media screen and (max-width: 470px) {
@@ -62,8 +72,9 @@
     display: block;
     margin-left: -20px;
   }
-  .nav-text-h1 {
+  .ltu {
     font-size: small;
+    display: flex;
   }
   .icon-menu {
     position: fixed;
@@ -73,15 +84,16 @@
   .img-hd {
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 420px) {
   .hd-div-mg-ds {
     display: block;
     margin-left: 0px;
   }
-  .nav-text-h1 {
+  /* .ltu {
     font-size: small;
     text-align: center;
-  }
+    display: flex;
+  } */
   .icon-menu {
     position: fixed;
     left: 280px;

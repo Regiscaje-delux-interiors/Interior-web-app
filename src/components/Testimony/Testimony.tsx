@@ -93,7 +93,7 @@ const Testimony = () => {
               <h5>Accountant</h5>
               <blockquote>
                 REGISCAJE DELUX INTERIORS are the best when it comes to
-                Industrial Cleaning. Their expertise are top notch.
+                Industrial Cleaning. Patronize them.
               </blockquote>
             </figcaption>
           </figure>

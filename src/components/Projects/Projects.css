@@ -2,7 +2,7 @@
   height: auto;
 }
 .project-heading h1 {
-  padding-top: 60px;
+  padding-top: 100px;
   color: white;
   font-size: 42px;
   font-weight: 600;
@@ -18,14 +18,14 @@
 }
 .project-photo-display {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   flex-wrap: wrap;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-between;
 }
 .flip-card {
   perspective: 1000px;
-  width: 335px;
+  width: 315px;
   height: 40vh;
 }
 
@@ -65,11 +65,28 @@
 }
 
 .project-photo-div {
-  width: 325px;
-  height: 40vh;
+  width: 300px;
+  /* height: 40vh; */
 }
 .project-photo {
   width: 100%;
   object-fit: cover;
   height: 100%;
+}
+@media (max-width: 760px) {
+  .project-photo-display {
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .project-heading {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 460px) {
+  .project-photo-display {
+    gap: 35px;
+  }
+  .project-heading {
+  }
 }

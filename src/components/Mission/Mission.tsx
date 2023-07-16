@@ -28,7 +28,7 @@ const Mission = () => {
                 <img src={hut} alt="img" className="mission-card-img" />
               </div>
               <div className="container mission-card-text">
-                <h2 className="mission-card-head antialiased">
+                <h2 className="mission-card-head antialiased mis-h">
                   Luxury Interior Decoration
                 </h2>
                 <p>

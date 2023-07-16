@@ -215,11 +215,17 @@ function Header(props) {
                 </Typography>
               </div>
             </Link>
-            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-              <h1 className="  px-3 py-2 rounded-md text-lg  font-medium nav-text-h1">
+            <Link
+              to="/"
+              style={{
+                textDecoration: "none",
+                color: "inherit",
+              }}
+            >
+              <h1 className="text-lg px-3 py-1 font-medium rounded-md nav-text-h1 ">
                 REGISCAJE DELUX INTERIORS
               </h1>
-
+              <h1 className=" ltu ">REGISCAJE DELUX INTERIORS</h1>
               {/* <Typography
                 variant="h6"
                 component="div"
@@ -242,7 +248,7 @@ function Header(props) {
                   <ListItem>
                     <a
                       href="#"
-                      className=" hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                      className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md  font-medium nav-list-h"
                     >
                       PROFILE
                     </a>
@@ -255,7 +261,7 @@ function Header(props) {
                     >
                       <button
                         type="button"
-                        className=" hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                        className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md nav-list-h font-medium"
                       >
                         SERVICES
                       </button>
@@ -271,7 +277,7 @@ function Header(props) {
                     {" "}
                     <a
                       href="#"
-                      className=" hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                      className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md nav-list-h font-medium"
                     >
                       PROJECTS
                     </a>
@@ -285,7 +291,7 @@ function Header(props) {
                     >
                       <button
                         type="button"
-                        className=" hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                        className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md nav-list-h font-medium"
                       >
                         STAFFS
                       </button>

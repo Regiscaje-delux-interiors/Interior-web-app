@@ -12,15 +12,15 @@
   margin-top: 40px;
 }
 .mission-card {
-  width: 400px;
-  height: 58vh;
+  width: 350px;
+  height: 65vh;
   border: 3px solid transparent;
   background: rgb(23 37 84 / var(--tw-bg-opacity));
   border-radius: 10px;
 }
 .mission-card-img-div {
   perspective: 1000px;
-  width: 358px;
+  width: 300px;
   /* width: 370px; */
   margin-top: 20px;
   margin-left: auto;
@@ -53,6 +53,9 @@
   color: rgb(160, 155, 190);
   font-size: medium;
 }
+.mis-h {
+  width: 85%;
+}
 @media (max-width: 1500px) {
   .mission-section {
     height: auto;
@@ -67,6 +70,9 @@
   }
   .mission-card {
     margin-bottom: 30px;
+  }
+  .mission-card-display {
+    justify-content: center;
   }
 }
 @media (max-width: 480px) {
