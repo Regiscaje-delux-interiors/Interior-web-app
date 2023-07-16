@@ -8,7 +8,7 @@ const Mission = () => {
   return (
     <>
       <div className="bg-indigo-950 h-screen mission-section">
-        <div className="container mx-auto">
+        <div className="containers ">
           <div>
             <h6 className="pt-24 text-white antialiased font-semibold">
               Why REGISCAJE DELUX INTERIORS

@@ -63,7 +63,7 @@ const Testimony = () => {
 
   return (
     <div className="bg-indigo-950 testmonial-section">
-      <div className="container mx-auto">
+      <div className="containers ">
         <h2 className="test-h text-center antialiased font-semibold text-white text-3xl pt-12 ">
           Happy Clients
         </h2>

@@ -18,7 +18,7 @@ const Hero: React.FC<Props> = () => {
 
   return (
     <div className="bg-slate-950 w-full h-full pb-32 hero-main-div ">
-      <div className="container mx-auto">
+      <div className="containers ">
         <div className=" mx-auto flex justify-between items-center flex-wrap pt-8  ">
           <div className="md:w-1/2  sm:w-screen leading-5 sm:mt-20">
             <h4 className=" text-white text-5xl antialiased font-semibold typewriter-div">

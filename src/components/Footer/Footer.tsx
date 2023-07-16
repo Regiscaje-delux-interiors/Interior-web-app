@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-blue-950">
-        <div className="container mx-auto">
+        <div className="containers ">
           <div className=" flex-div-foot">
             <div className="box-footer-div">
               <h2>REGISCAJE DELUX INTERIORS</h2>

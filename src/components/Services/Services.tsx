@@ -13,7 +13,7 @@ import { Container } from "react-bootstrap";
 const Services = () => {
   return (
     <div className="service-main-div">
-      <div className="container mx-auto">
+      <div className="containers">
         <div className="dsp-service-div">
           <div>
             <div className="our-sh">// OUR SERVICE</div>

@@ -46,7 +46,7 @@ const Projects = () => {
   };
   return (
     <div className="bg-indigo-950 projects-section">
-      <div className="container mx-auto">
+      <div className="containers ">
         <div className="project-heading">
           <h1>Our Projects</h1>
           <hr className="project-hr" />
