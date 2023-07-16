@@ -7,7 +7,7 @@ import Mission from "../components/Mission/Mission";
 import Projects from "../components/Projects/Projects";
 
 import Footer from "../components/Footer/Footer";
-import { Container } from "react-bootstrap";
+import { Container } from "@mui/system";
 import Partners from "../components/Partners/Partners";
 import CanvasRotate from "../components/Canvas/CanvasRotate";
 
@@ -22,7 +22,6 @@ const Home = () => {
 
       <Testimony />
       <Partners />
-
       {/* </Container> */}
     </div>
   );

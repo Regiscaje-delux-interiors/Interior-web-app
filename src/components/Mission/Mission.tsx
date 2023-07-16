@@ -8,7 +8,7 @@ const Mission = () => {
   return (
     <>
       <div className="bg-indigo-950 h-screen mission-section">
-        <Container>
+        <div className="container mx-auto">
           <div>
             <h6 className="pt-24 text-white antialiased font-semibold">
               Why REGISCAJE DELUX INTERIORS
@@ -69,7 +69,7 @@ const Mission = () => {
               </div>
             </div>
           </div>
-        </Container>
+        </div>
       </div>
     </>
   );
