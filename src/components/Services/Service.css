@@ -23,8 +23,22 @@
   font-weight: 900;
 }
 .all-service {
-  display: none;
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  height: 9vh;
+  border: 1px solid transparent;
+  font-size: larger;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#042652, rgb(97, 11, 30));
 }
+/* .all-service {
+  display: block;
+} */
 .all-service:hover {
   background: #4054b2;
 }
@@ -75,6 +89,7 @@
     display: block;
     width: 200px;
     height: 9vh;
+    text-align: center;
     border: 1px solid transparent;
     font-size: larger;
     font-weight: 600;

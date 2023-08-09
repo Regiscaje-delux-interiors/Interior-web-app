@@ -1,4 +1,4 @@
-import DownloadProfile from "../DownloadProfile/DownloadProfile";
+import { DownloadProfile } from "../DownloadProfile/DownloadProfile";
 
 export const Profile = () => {
   return (

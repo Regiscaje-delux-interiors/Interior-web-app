@@ -3,7 +3,8 @@ import "./Projects.css";
 import pprt from "../../assests/images/pprt.jpg";
 import hut from "../../assests/images/Hom.jpg";
 import elect from "../../assests/images/elect.jpg";
-import max from "../../assests/images/max.jpg";
+import max from "../../assests/images/window.jpg";
+import maxs from "../../assests/images/max.jpg";
 import gg from "../../assests/images/comp.jpg";
 import hj from "../../assests/images/gg.jpg";
 import wall from "../../assests/images/wall.jpg";
@@ -63,7 +64,7 @@ const Projects = () => {
                 <img src={max} alt="img" className="project-photo" />
               </div>
               <div className="flip-card-back">
-                <img src={hut} alt="img" className="project-photo" />
+                <img src={maxs} alt="img" className="project-photo" />
               </div>
             </div>
           </div>
