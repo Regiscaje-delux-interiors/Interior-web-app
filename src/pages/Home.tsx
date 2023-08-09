@@ -10,11 +10,13 @@ import Footer from "../components/Footer/Footer";
 import { Container } from "@mui/system";
 import Partners from "../components/Partners/Partners";
 import CanvasRotate from "../components/Canvas/CanvasRotate";
+import AboutUs from "../components/About-Us/AboutUs";
 
 const Home = () => {
   return (
     <div>
       <Hero />
+      <AboutUs />
       {/* <Container> */}
       <Services />
       <Mission />
@@ -22,6 +24,7 @@ const Home = () => {
 
       <Testimony />
       <Partners />
+
       {/* </Container> */}
     </div>
   );

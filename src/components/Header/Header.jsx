@@ -20,11 +20,11 @@ import { FaTimes, FaVideo } from "react-icons/fa";
 import { GiMusicalScore } from "react-icons/gi";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import { MdPermContactCalendar } from "react-icons/md";
+import { MdKeyboardArrowDown, MdPermContactCalendar } from "react-icons/md";
 import { SiHatenabookmark } from "react-icons/si";
 import djs from "../../assests/images/logo.png";
 import { HiBars3BottomRight } from "react-icons/hi2";
-import { Services, Staffs } from "./Navs";
+import { Profile, Services, Staffs } from "./Navs";
 // import { makeStyles } from "@mui/material";
 
 const drawerWidth = 240;
@@ -34,18 +34,31 @@ function Header(props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [isOpen, setOpen] = React.useState(false);
   const [isStaff, setIsStaff] = React.useState(false);
-
+  const [dropdown, setDropdown] = React.useState(false);
   const mousetoggle = () => {
     setOpen(!isOpen);
   };
-
+  const dropdowns = () => {
+    setDropdown(!dropdown);
+  };
   const mouseStafftoggle = () => {
     setIsStaff(!isStaff);
   };
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
-
+  const handleServicesClick = () => {
+    const serviceSection = document.getElementById("services");
+    serviceSection.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleAboutUsClick = () => {
+    const aboutSection = document.getElementById("about-us");
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleProjectClick = () => {
+    const projectSection = document.getElementById("projects");
+    projectSection.scrollIntoView({ behavior: "smooth" });
+  };
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
@@ -104,12 +117,33 @@ function Header(props) {
           }}
         >
           <ListItem>
-            <a
-              href="#"
-              className="text-white hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-            >
-              PROFILE
-            </a>
+            <ListItem>
+              <div class="dropdown">
+                <div
+                  className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md  font-medium nav-list-h"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  onClick={dropdowns}
+                >
+                  PROFILE{" "}
+                </div>
+                <div>
+                  <MdKeyboardArrowDown className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md  font-medium nav-list-h" />
+                </div>
+                {dropdown && (
+                  <>
+                    <Profile />
+                  </>
+                )}
+              </div>
+              {/* <a
+                      href="#"
+                      className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md  font-medium nav-list-h"
+                    >
+                      PROFILE
+                    </a> */}
+            </ListItem>
           </ListItem>
           <ListItem>
             <div
@@ -246,41 +280,56 @@ function Header(props) {
                   }}
                 >
                   <ListItem>
-                    <a
+                    <div class="dropdown">
+                      <div
+                        className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md  font-medium nav-list-h"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        onClick={dropdowns}
+                      >
+                        PROFILE
+                      </div>
+                      {dropdown && (
+                        <>
+                          <Profile />
+                        </>
+                      )}
+                    </div>
+                    {/* <a
                       href="#"
                       className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md  font-medium nav-list-h"
                     >
                       PROFILE
-                    </a>
+                    </a> */}
                   </ListItem>
                   <ListItem>
-                    <div
-                      className="relative inline-block text-left"
-                      onMouseEnter={mousetoggle}
-                      onMouseLeave={mousetoggle}
-                    >
+                    <button onClick={handleAboutUsClick}>
+                      <div className="flex hover:bg-red-500 hover:text-white px-3 py-1 rounded-md nav-list-h font-medium">
+                        <span>ABOUT</span> <span className="ml-1">US</span>
+                      </div>
+                    </button>
+                  </ListItem>
+                  <ListItem>
+                    <div className="relative inline-block text-left">
                       <button
+                        onClick={handleServicesClick}
                         type="button"
                         className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md nav-list-h font-medium"
                       >
                         SERVICES
                       </button>
-                      {isOpen && (
-                        <>
-                          <Services />
-                        </>
-                      )}
                     </div>
                   </ListItem>
 
                   <ListItem>
                     {" "}
-                    <a
-                      href="#"
+                    <button
+                      onClick={handleProjectClick}
                       className=" hover:bg-red-500 hover:text-white px-3 py-1 rounded-md nav-list-h font-medium"
                     >
                       PROJECTS
-                    </a>
+                    </button>
                   </ListItem>
 
                   <ListItem>

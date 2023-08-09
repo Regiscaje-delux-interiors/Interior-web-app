@@ -12,11 +12,11 @@ import { Container } from "react-bootstrap";
 
 const Services = () => {
   return (
-    <div className="service-main-div">
+    <div className="service-main-div" id="services">
       <div className="containers">
         <div className="dsp-service-div">
           <div>
-            <div className="our-sh">// OUR SERVICE</div>
+            <div className="our-sh">OUR SERVICE</div>
             <div className="w-service-big">
               We Offer a Wide Variety of Interior and Home Design
             </div>

@@ -45,7 +45,7 @@ const Projects = () => {
     setIsFlippedsssssss(!isFlippedsssssss);
   };
   return (
-    <div className="bg-indigo-950 projects-section">
+    <div className="bg-indigo-950 projects-section" id="projects">
       <div className="containers ">
         <div className="project-heading">
           <h1>Our Projects</h1>

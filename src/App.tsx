@@ -4,6 +4,7 @@ import Navbar from "./components/Header/Navbar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import DownloadProfile from "./components/DownloadProfile/DownloadProfile";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
       </Routes>
       <Footer />
+      {/* <DownloadProfile /> */}
     </div>
   );
 }

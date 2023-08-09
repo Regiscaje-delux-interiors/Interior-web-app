@@ -1,0 +1,39 @@
+.about-main-div {
+  width: 100%;
+  padding-top: 100px;
+  height: auto;
+  margin-bottom: 50px;
+}
+.about-div-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.aboutus-write-up-div {
+  width: 50%;
+  font-size: large;
+}
+.div-img-left {
+  width: 30%;
+  height: 30%;
+  margin-right: 80px;
+}
+.left-div-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 980px) {
+  .aboutus-write-up-div {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .div-img-left {
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

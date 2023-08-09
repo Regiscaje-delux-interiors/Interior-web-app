@@ -36,8 +36,17 @@ const Navbar = () => {
                   href="#"
                   className="text-white hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  PROFILE
+                  PROFILEr
                 </a>
+                <a
+                  href="#"
+                  className="text-white hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  PROFILEs
+                </a>
+
+                {/* jjjjf */}
+
                 <div
                   className="relative inline-block text-left"
                   onMouseEnter={mousetoggle}
@@ -144,6 +153,7 @@ const Navbar = () => {
             >
               About
             </a>
+
             <div
               className="relative inline-block text-left"
               onMouseEnter={mousetoggle}
