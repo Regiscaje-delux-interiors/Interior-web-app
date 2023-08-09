@@ -1,5 +1,4 @@
 import React from "react";
-
 const DownloadProfile = () => {
   const fileName = "REGISCAJE DELUX INTERIORS Profile";
   const pdfUrl =
